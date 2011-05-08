@@ -22,6 +22,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency "rspec"
   s.add_development_dependency "fakefs"
  
-  s.files        = Dir.glob("{bin,lib}/**/*") + %w(MIT-LICENSE README.md)
+  s.files        = Dir.glob("{bin,lib}/**/*") + %w(WTFPL README.md)
   s.require_path = 'lib'
 end
